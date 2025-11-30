@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jormali Cevallos | Diseño de Interiores</title>
+    <meta name="description" content="Jormali Cevallos, especialistas en diseño de interiores. Transformamos espacios residenciales y comerciales.">
+    
+    <!-- Google Fonts: Montserrat -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              brand: {
+                primary: '#1C3A5A',       /* Azul Oscuro */
+                secondary: '#74809D',     /* Gris Azulado */
+                accent: '#B22222',        /* Rojo Borgoña */
+                gold: '#FFD700',          /* Dorado */
+                light: '#F8F8F8',         /* Blanco Cremoso */
+                dark: '#333333',
+              }
+            },
+            fontFamily: {
+              sans: ['Montserrat', 'sans-serif'],
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+      /* Global styles that correspond to the body settings provided */
+      body {
+        font-family: 'Montserrat', sans-serif;
+        background-color: #1C3A5A;
+      }
+      /* Custom utility for the fixed background effect */
+      .bg-fixed-theme {
+        background-image: linear-gradient(rgba(28, 58, 90, 0.85), rgba(28, 58, 90, 0.85)), url('https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=2000&q=80');
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+      }
+      html {
+        scroll-behavior: smooth;
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "lucide-react": "https://aistudiocdn.com/lucide-react@^0.555.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/"
+  }
+}
+</script>
+</head>
+  <body class="bg-fixed-theme text-white antialiased">
+    <div id="root"></div>
+  </body>
+</html>

@@ -124,7 +124,7 @@ const Hero: React.FC = () => {
              <div className="relative rounded-lg overflow-hidden shadow-2xl border-4 border-white/10 transform rotate-2 hover:rotate-0 transition-transform duration-500 group">
                 {/* Updated Image: Commercial Office, Clear, No Overlay */}
                 <img 
-                  src="foto1" 
+                  src="foto1.jpeg" 
                   alt="Oficinas comerciales modernas" 
                   className="w-full h-[500px] object-cover transition-transform duration-700 group-hover:scale-105"
                 />

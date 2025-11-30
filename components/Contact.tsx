@@ -1,5 +1,5 @@
 import React from 'react';
-import { useReveal } from '../hooks/useReveal';
+import { useReveal } from '../hooks/useReveal.ts';
 import { Mail, Phone, MapPin } from 'lucide-react';
 
 const Contact: React.FC = () => {

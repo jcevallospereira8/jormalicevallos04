@@ -1,5 +1,5 @@
 import React from 'react';
-import { useReveal } from '../hooks/useReveal';
+import { useReveal } from '../hooks/useReveal.ts';
 
 const ServiceItem: React.FC<{ image: string; title: string; description: string }> = ({ image, title, description }) => {
   return (
@@ -38,12 +38,12 @@ const Services: React.FC = () => {
             description="Creamos espacios que reflejan tu estilo de vida. Desde la selección de muebles hasta la paleta de colores perfecta."
           />
           <ServiceItem 
-            image="https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=1050&q=80"
+            image="https://images.unsplash.com/photo-1497215728101-856f4ea42174?auto=format&fit=crop&w=1050&q=80"
             title="Diseño Comercial"
             description="Soluciones creativas para espacios de trabajo y negocios que potencian la productividad y la imagen de marca."
           />
           <ServiceItem 
-            image="https://images.unsplash.com/photo-1615873968403-89e068629265?auto=format&fit=crop&w=1050&q=80"
+            image="https://images.unsplash.com/photo-1616486338812-3dadae4b4f9d?auto=format&fit=crop&w=1050&q=80"
             title="Consultoría de Estilo"
             description="Asesoría experta para renovar tus espacios con confianza, optimizando lo que ya tienes o planeando nuevos cambios."
           />

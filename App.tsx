@@ -1,12 +1,12 @@
 import React from 'react';
-import Header from './components/Header';
-import Hero from './components/Hero';
-import Services from './components/Services';
-import Process from './components/Process';
-import Portfolio from './components/Portfolio';
-import About from './components/About';
-import Contact from './components/Contact';
-import Footer from './components/Footer';
+import Header from './components/Header.tsx';
+import Hero from './components/Hero.tsx';
+import Services from './components/Services.tsx';
+import Process from './components/Process.tsx';
+import Portfolio from './components/Portfolio.tsx';
+import About from './components/About.tsx';
+import Contact from './components/Contact.tsx';
+import Footer from './components/Footer.tsx';
 
 function App() {
   return (

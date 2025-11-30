@@ -1,5 +1,5 @@
 import React from 'react';
-import { useReveal } from '../hooks/useReveal';
+import { useReveal } from '../hooks/useReveal.ts';
 
 const About: React.FC = () => {
   const { ref, isVisible } = useReveal();

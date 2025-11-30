@@ -1,5 +1,5 @@
 import React from 'react';
-import { useReveal } from '../hooks/useReveal';
+import { useReveal } from '../hooks/useReveal.ts';
 import { MessageSquare, PenTool, Hammer } from 'lucide-react';
 
 const Process: React.FC = () => {
